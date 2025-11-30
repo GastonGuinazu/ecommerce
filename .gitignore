@@ -1,0 +1,21 @@
+# --- IGNORAR EN TODO EL PROYECTO (Backend y Frontend) ---
+
+# Dependencias (lo más pesado)
+**/node_modules
+
+# Build de Next.js (Frontend)
+**/.next
+**/out
+**/build
+
+# Build de NestJS (Backend)
+**/dist
+
+# Variables de entorno (Seguridad)
+.env
+**/.env
+
+# Archivos de sistema y logs
+.DS_Store
+*.log
+**/coverage

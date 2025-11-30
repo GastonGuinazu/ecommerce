@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Opcional: Un estilo base para que todo se vea prolijo */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
